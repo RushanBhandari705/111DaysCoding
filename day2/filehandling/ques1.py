@@ -1,11 +1,11 @@
-# create a txt file with the following data
-#The txt file contains students id,name and marks of a module
-#ID001, Harry, 85
-#ID002, Bob, 78
-#ID003, Shyan, 92
+#Create a class “Programmer” for storing information of few programmers working at Microsoft.
+class Programmer:
+    def __init__(self, name, age, language):
+        self.name = name
+        self.age = age
+        self.language = language
 
-with open("students.txt", "w") as file:
-    file.write("ID001, Harry, 85\n")
-    file.write("ID002, Bob, 78\n")
-    file.write("ID003, Shyan, 92\n")
-
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Programming Language: {self.language}")
