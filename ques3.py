@@ -1,4 +1,4 @@
-#Create a class ‘Employee’ and add salary and increment properties to it.
+
 class Employee:
     def __init__(self, name, salary):
         self.name = name
