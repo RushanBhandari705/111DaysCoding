@@ -1,5 +1,4 @@
-#Write a method ‘salaryAfterIncrement’ method with a @property decorator with a setter
-#which changes the value of increment based on the salary.
+
 class Employee:
     def __init__(self, name, salary):
         self.name = name
